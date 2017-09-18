@@ -1,0 +1,134 @@
+.text-center{
+        text-align:center;
+        }
+        .encabezado {
+        padding:10px 0;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        width:100%;
+        }
+        .footer {
+        border-top: 1px solid;
+        text-align: justify;
+        width:100%;
+        }
+        .img-circle{
+        border: solid 1px #aaa;
+        padding: 5px;
+        border-radius: 78px;
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 20px;
+        }
+        .pull-right{
+        float: right;
+        }
+        span{
+        font-weight: normal;
+        line-height: 1;
+        color: #777777;
+        }
+        .fieldset{
+        background-color: #eef;
+        height: 200px;
+        border: 1px solid #aaa;
+        }
+        .fieldset legend{
+        border: 1px solid #aaa;
+        }
+        .info{
+        width: 500px;
+        height: 170px;
+        float: right;
+        }
+        ul{
+        list-style:none;
+        letter-spacing: 2px;
+        }
+        li{
+        margin: 4px;
+        font-style: italic;
+        text-transform: uppercase;
+        }
+        .tit{
+        color: #2a3;
+        }
+        table {
+        background-color: transparent;
+        }
+        caption {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: #777777;
+        text-align: left;
+        }
+        th {
+        text-align: left;
+        }
+        .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        }
+        .table > thead > tr > th,
+        .table > tbody > tr > th,
+        .table > tfoot > tr > th,
+        .table > thead > tr > td,
+        .table > tbody > tr > td,
+        .table > tfoot > tr > td {
+        padding: 8px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+        }
+        .table > thead > tr > th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #ddd;
+        }
+        .table > caption + thead > tr:first-child > th,
+        .table > colgroup + thead > tr:first-child > th,
+        .table > thead:first-child > tr:first-child > th,
+        .table > caption + thead > tr:first-child > td,
+        .table > colgroup + thead > tr:first-child > td,
+        .table > thead:first-child > tr:first-child > td {
+        border-top: 0;
+        }
+        .table > tbody + tbody {
+        border-top: 2px solid #ddd;
+        }
+        .table .table {
+        background-color: #fff;
+        }
+        .table-condensed > thead > tr > th,
+        .table-condensed > tbody > tr > th,
+        .table-condensed > tfoot > tr > th,
+        .table-condensed > thead > tr > td,
+        .table-condensed > tbody > tr > td,
+        .table-condensed > tfoot > tr > td {
+        padding: 5px;
+        }
+        .table-bordered {
+        border: 1px solid #ddd;
+        }
+        .table-bordered > thead > tr > th,
+        .table-bordered > tbody > tr > th,
+        
+        .table-bordered > tbody > tr > td,
+        .table-bordered > tfoot > tr > td {
+        border: 1px solid #ddd;
+        }
+        .table-bordered > thead > tr > th,
+        .table-bordered > thead > tr > td {
+        border-bottom-width: 2px;
+        }
+        table col[class*="col-"] {
+        position: static;
+        float: none;
+        display: table-column;
+        }
+        table td[class*="col-"],
+        table th[class*="col-"] {
+        position: static;
+        float: none;
+        display: table-cell;
+        }
